@@ -2,7 +2,7 @@ import {useState} from "react";
 import bernerSennen from "../../pictures/berner.png"
 import engelskSetter from "../../pictures/setter.png"
 import "./FrontPage.css"
-import TextBox from "../TextBox/TextBox";
+import InfoBoxes from "../InfoBoxes/InfoBoxes";
 
 const FrontPage = () => {
 
@@ -23,9 +23,9 @@ const FrontPage = () => {
                 onClick={handleClick}>
             Switch
         </button>
-            <TextBox berner={berner} setBerner={setBerner}>
+            <InfoBoxes berner={berner} setBerner={setBerner}>
 
-            </TextBox>
+            </InfoBoxes>
 
 
         </>

@@ -1,9 +1,11 @@
-import "./TextBox.css";
-interface TextBoxProps {
+import "./InfoBoxes.css";
+
+interface InfoBoxesProps {
     berner: boolean;
     setBerner: Function;
 }
-const TextBox = ({berner, setBerner}:TextBoxProps) => {
+
+const InfoBoxes = ({berner, setBerner}:InfoBoxesProps) => {
 return (
     <div className="textbox">
     <div>Likes to be {berner ? "inside" : "outside"}</div>
@@ -13,4 +15,4 @@ return (
 )
 }
 
-export default TextBox;
+export default InfoBoxes;
