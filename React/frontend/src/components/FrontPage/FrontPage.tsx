@@ -1,6 +1,8 @@
 import {useState} from "react";
 import bernerSennen from "../../pictures/berner.png"
+import engelskSetter from "../../pictures/setter.png"
 import "./FrontPage.css"
+import TextBox from "../TextBox/TextBox";
 
 const FrontPage = () => {
 
@@ -11,15 +13,21 @@ const FrontPage = () => {
     }
     return (
         <>
+            <h2>{berner ? "Berner Sennen" : "Coca"}</h2>
         <img
             className='dog-image'
-            src={bernerSennen}/>
+            src={berner ? bernerSennen : engelskSetter}/>
 
         <button style = {{marginTop:"2rem"}}
                 className="dog-button"
                 onClick={handleClick}>
-            {berner ? "Berner sennen" : "coca"}
+            Switch
         </button>
+            <TextBox berner={berner} setBerner={setBerner}>
+
+            </TextBox>
+
+
         </>
     )
 

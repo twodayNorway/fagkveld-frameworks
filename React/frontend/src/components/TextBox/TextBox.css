@@ -1,0 +1,11 @@
+.textbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.textbox  > div {
+    border: #61DBFB solid 1px;
+    border-radius: 4px;
+    margin-right: 2rem;
+      }

@@ -1,6 +1,8 @@
 
 .dog-image {
     width: 20rem;
+    height: 20rem;
+    border-radius: 8px;
 }
 
 .dog-button {
