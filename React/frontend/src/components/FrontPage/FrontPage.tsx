@@ -1,5 +1,5 @@
 import {useState} from "react";
-import bernerSennen from "../../../pictures/berner.png"
+import bernerSennen from "../../pictures/berner.png"
 import "./FrontPage.css"
 
 const FrontPage = () => {
