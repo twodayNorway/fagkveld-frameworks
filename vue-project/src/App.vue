@@ -1,9 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Dog from "./components/Dog/Dog.vue";
+</script>
 
 <template>
   <header></header>
 
-  <main></main>
+  <main>
+    <Dog />
+  </main>
 </template>
 
 <style scoped></style>
