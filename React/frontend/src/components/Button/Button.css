@@ -1,12 +1,6 @@
-
-.dog-image {
-    width: 20rem;
-    height: 20rem;
-    border-radius: 8px;
-}
-
 .dog-button {
     background-color: #61DBFB;
+    font-size: 1rem;
     border-radius: 8px;
     border: none;
     color: white;
