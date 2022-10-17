@@ -1,0 +1,16 @@
+<div class="dog-container">
+    <img *ngIf="showDog; else other_content"
+        src="./assets/images/dog.jpg"
+        alt="dog"
+        class="dog-image">
+    <ng-template #other_content>
+        <img
+        src="./assets/images/cat.jpg"
+        alt="dog"
+        class="dog-image">
+    </ng-template>
+    <app-button 
+        [buttonText]="buttonPropText"
+        (newItemEvent)="toggleDogHandler()"
+    ></app-button>
+</div>
