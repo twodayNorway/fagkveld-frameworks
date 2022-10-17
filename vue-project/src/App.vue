@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import Dog from "./components/Dog/Dog.vue";
+import Dog from "./components/Dog.vue";
 </script>
 
 <template>
-  <header></header>
-
+  <header><h1>Velg den søteste:</h1></header>
   <main>
     <Dog />
   </main>
