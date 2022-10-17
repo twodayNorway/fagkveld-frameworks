@@ -1,0 +1,13 @@
+
+.dog-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.dog-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
